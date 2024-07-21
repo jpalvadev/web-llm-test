@@ -20,7 +20,7 @@ async function init() {
     });
 
     const model = new ChatWebLLM({
-        model: 'gemma-2b-it-q4f32_1-MLC',
+        model: 'TinyLlama-1.1B-Chat-v1.0-q4f32_1-MLC-1k',
         chatOptions: {
             temperature: 0.5,
         },
