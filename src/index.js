@@ -22,7 +22,7 @@ async function init() {
     const model = new ChatWebLLM({
         // model: 'TinyLlama-1.1B-Chat-v1.0-q4f32_1-MLC-1k', // alucina demasiado
         // model: 'Phi-3-mini-4k-instruct-q4f16_1-MLC-1k', // GpuValidationError
-        model: 'gemma-2b-it-q4f16_1-MLC-1k',
+        model: 'gemma-2b-it-q4f32_1-MLC-1k',
         chatOptions: {
             temperature: 0.5,
         },
